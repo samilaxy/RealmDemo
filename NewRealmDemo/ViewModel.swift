@@ -59,6 +59,7 @@ class ViewModel: ObservableObject {
             try realm.write {
                 offsets.forEach { index in
                     realm.delete(todoData[index])
+                    fetch()
                 }
             }
         } catch {
