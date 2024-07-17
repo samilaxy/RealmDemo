@@ -30,8 +30,6 @@ struct ContentView: View {
                         }
                     }
                     .onDelete(perform: viewModel.delete)
-                    
-                    
                 }
                 .sheet(isPresented: $showAddTaskView) {
                     TodoFormView()
@@ -40,7 +38,7 @@ struct ContentView: View {
                 .navigationBarItems(trailing: Button(action: {
                     showAddTaskView = true
                 }) {
-                    Image(systemName: "plus")
+                    Image(systemName: "plus.circle.fill")
                         .imageScale(.large)
                 })
                 .navigationTitle("Tasks")
