@@ -10,6 +10,7 @@
 		8319B6DC2C47D6930016103C /* RealmConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8319B6DB2C47D6930016103C /* RealmConfig.swift */; };
 		8319B6E22C47D6E40016103C /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8319B6E12C47D6E40016103C /* RealmSwift */; };
 		8319B6E32C47D6E40016103C /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 8319B6E12C47D6E40016103C /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		8319B6E62C47E5D70016103C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8319B6E52C47E5D70016103C /* ViewModel.swift */; };
 		838ABE732C47D4DE00339F8D /* NewRealmDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838ABE722C47D4DE00339F8D /* NewRealmDemoApp.swift */; };
 		838ABE752C47D4DE00339F8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838ABE742C47D4DE00339F8D /* ContentView.swift */; };
 		838ABE772C47D4DF00339F8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 838ABE762C47D4DF00339F8D /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 
 /* Begin PBXFileReference section */
 		8319B6DB2C47D6930016103C /* RealmConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConfig.swift; sourceTree = "<group>"; };
+		8319B6E52C47E5D70016103C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		838ABE6F2C47D4DE00339F8D /* NewRealmDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewRealmDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		838ABE722C47D4DE00339F8D /* NewRealmDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRealmDemoApp.swift; sourceTree = "<group>"; };
 		838ABE742C47D4DE00339F8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				838ABE762C47D4DF00339F8D /* Assets.xcassets */,
 				838ABE782C47D4DF00339F8D /* Preview Content */,
 				8319B6DB2C47D6930016103C /* RealmConfig.swift */,
+				8319B6E52C47E5D70016103C /* ViewModel.swift */,
 			);
 			path = NewRealmDemo;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 			files = (
 				838ABE752C47D4DE00339F8D /* ContentView.swift in Sources */,
 				838ABE732C47D4DE00339F8D /* NewRealmDemoApp.swift in Sources */,
+				8319B6E62C47E5D70016103C /* ViewModel.swift in Sources */,
 				8319B6DC2C47D6930016103C /* RealmConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
