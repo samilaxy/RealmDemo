@@ -1,6 +1,6 @@
 //
-//  RealmDemoApp.swift
-//  RealmDemo
+//  NewRealmDemoApp.swift
+//  NewRealmDemo
 //
 //  Created by Samuel on 7/17/24.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct RealmDemoApp: App {
+struct NewRealmDemoApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
