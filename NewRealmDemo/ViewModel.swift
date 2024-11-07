@@ -79,12 +79,7 @@ class ViewModel: ObservableObject {
         //                    print("Deleted indices: ", deletions)
         //                    print("Inserted indices: ", insertions)
         //                    print("Modified modifications: ", modifications)
-        //                case .error(let error):
-        //                        // An error occurred while opening the Realm file on the background worker thread
-        //                    fatalError("\(error)")
-        //            }
-        //        }
-        //    }
+       
     
     deinit {
         notificationToken?.invalidate()
