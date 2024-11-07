@@ -73,12 +73,7 @@ class ViewModel: ObservableObject {
         //            switch changes {
         //                case .initial:
         //                        // Results are now populated and can be accessed without blocking the UI
-        //                    break
-        //                case .update(_, let deletions, let insertions, let modifications):
-        //                        // Query results have changed.
-        //                    print("Deleted indices: ", deletions)
-        //                    print("Inserted indices: ", insertions)
-        //                    print("Modified modifications: ", modifications)
+
        
     
     deinit {
