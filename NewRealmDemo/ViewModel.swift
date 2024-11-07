@@ -43,7 +43,7 @@ class ViewModel: ObservableObject {
     }
     
     func update() {
-            // All modifications to a realm must happen in a write block.
+           
         let todoToUpdate = todoData[0]
         do {
             try realm.write {
