@@ -65,17 +65,7 @@ class ViewModel: ObservableObject {
         } catch {
             print("Failed to add Todo: \(error.localizedDescription)")
         }
-    }
-        // Retain notificationToken as long as you want to observe
-        //    func setupObserver() {
-        //        notificationToken = todoData.observe { [weak self] (changes: RealmCollectionChange<Results<Todo>>) in
-        //            guard let self = self else { return }
-        //            switch changes {
-        //                case .initial:
-        //                        // Results are now populated and can be accessed without blocking the UI
-
-       
-    
+    }    
     deinit {
         notificationToken?.invalidate()
     }
