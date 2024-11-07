@@ -26,7 +26,7 @@ class ViewModel: ObservableObject {
     }
     
     func save(todo: Todo) {
-            // todo = Todo(name: "Do laundry", ownerId: user.id)
+            
         do {
             try realm.write {
                 realm.add(todo)
