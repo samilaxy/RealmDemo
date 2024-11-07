@@ -18,7 +18,6 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                    // Your task list view here
                 List {
                     
                     ForEach(data, id: \._id) { task in
